@@ -1,6 +1,7 @@
 # Video Sharing Platform Database
 
-This project models a simple database implementation for a video sharing platform. 
+This project models a simple database implementation for a video sharing platform. Users on this platform will have the capability to manage multiple channels for
+uploading and storing videos, comment on another user's video, reply to another user's comment, and like or dislike another user's comment or video.
 
 # UML Diagram Representation
 https://github.com/steveliu22/CS3200_final/blob/2b770860590f06bf67658c32f660ae55fbfc6424/PT1%20UML%20DIAGRAM.pdf
