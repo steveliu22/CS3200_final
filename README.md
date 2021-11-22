@@ -36,7 +36,7 @@ The model that represents a user uploaded video. Each video has a:
 - description: a brief description of what the video is about
 - likes : the number of users that have liked this video
 - dislikes : the number of users that have disliked this video
-- length : the length of this video
+- length : the length of this video in minutes
 - public : whether or not the video is public
 - category : the general category that this video falls under 
 
