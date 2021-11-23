@@ -69,6 +69,7 @@ Each user has the capability to create multiple channels.
 
 # User to Comment (many-to-many)
 Each user has the capability to make many comments on a single video and each comment can be replied to by many users.
+It is reified by the Reply table where each individual User can Reply to many comments (one-to-many) and each Comment can have many Replies (another one-to-many).
 
 # Channel to Video (one-to-many)
 Each channel can hold many user uploaded videos.
