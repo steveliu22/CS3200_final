@@ -77,7 +77,7 @@ Each channel can hold many user uploaded videos.
 # Video to Comment (one-to-many)
 Each video can hold many user comments.
 
-#How to Launch the User Interface:
+# How to Launch the User Interface:
 
 These instructions are working under the assumption that you have already installed the latest version of IntelliJ IDEA and MySQL Database. 
 
