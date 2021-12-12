@@ -1,5 +1,5 @@
 # Video Sharing Platform Database
-Steve Liu
+Team 20: Steve Liu
 
 This project models a simple database implementation for a video sharing platform. Users on this platform will have the capability to manage multiple channels for
 uploading and storing videos, comment on another user's video, reply to another user's comment, and like or dislike another user's comment or video.
