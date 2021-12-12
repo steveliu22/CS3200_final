@@ -91,12 +91,8 @@ Part 1: Installing the table onto your mySQL
 Part 2: Opening up the User Interface
 
 1. Open up IntelliJ IDEA. Select File and Open and navigate to where the final_proj folder is.
-
 2. After opening up the final_proj folder, IntelliJ may ask whether or not you want to load scripts and whether or not you trust the file. Select load and yes to both of them.
-
 3. Under final_proj navigate to src/main/resources/applications.properties. Replace YOUR_SCHEMA with the schema that you are working with and replace MY_USERNAME and MY_PASSWORD to whatever username and password of the database server you're is currently connected to.
-
 4. Navigate to src/java/com.example.project/DemoApplications. Press the Green triangle next to the DemoApplication Class. Wait for the server to launch.
-
 5. Lastly navigate to src/webapp/index.html. Right click the file, click 'Run index.html' and a browser window should pop up that displays the user interface.
 
