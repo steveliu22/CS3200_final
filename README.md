@@ -77,4 +77,26 @@ Each channel can hold many user uploaded videos.
 # Video to Comment (one-to-many)
 Each video can hold many user comments.
 
+#How to Launch the User Interface:
+
+These instructions are working under the assumption that you have already installed the latest version of IntelliJ IDEA and MySQL Database. 
+
+Part 1: Installing the table onto your mySQL
+
+1. Download and unzip or clone the entire repository onto a well known location on your computer.
+1. Open up MySQL Workbench and navigate to any server. Open up the server, create a default schema if you haven't, and select the "Server" drop down menu button.
+2. Under "Server" select "Data Import". 
+3. Select "Import from Dump Project Folder" and ensure that the file path location is pointing to the db_design_finals_table folder.
+
+Part 2: Opening up the User Interface
+
+1. Open up IntelliJ IDEA. Select File and Open and navigate to where the final_proj folder is.
+
+2. After opening up the final_proj folder, IntelliJ may ask whether or not you want to load scripts and whether or not you trust the file. Select load and yes to both of them.
+
+3. Under final_proj navigate to src/main/resources/applications.properties. Replace YOUR_SCHEMA with the schema that you are working with and replace MY_USERNAME and MY_PASSWORD to whatever username and password of the database server you're is currently connected to.
+
+4. Navigate to src/java/com.example.project/DemoApplications. Press the Green triangle next to the DemoApplication Class. Wait for the server to launch.
+
+5. Lastly navigate to src/webapp/index.html. Right click the file, click 'Run index.html' and a browser window should pop up that displays the user interface.
 
